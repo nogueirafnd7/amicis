@@ -1,4 +1,4 @@
-/* *{
+*{
     outline: 1px dotted rgb(246, 0, 0);  
 }
 
@@ -6,7 +6,7 @@ body {
     background: repeating-linear-gradient(to right,
             #DDDDDD, #DDDDDD calc(100% / 12),
             #BBBBBB calc(100% / 12), #BBBBBB calc(100% / 6));
-} */
+}
 
 
  #cabecalho {

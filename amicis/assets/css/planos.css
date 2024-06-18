@@ -7,59 +7,111 @@ body {
             #000000, #000000 calc(100% / 12),
             #5b5a5a calc(100% / 12), #5b5a5a calc(100% / 6));
 } */
-
 #container {
     display: flex;
     justify-content: center;
-    align-items: flex-end; /* Alinhar todos os elementos ao fundo */
-    height: 100vh; /* Ajusta a altura conforme necessário */
+    align-items: flex-end;
+    /* Alinhar todos os elementos ao fundo */
+    height: 100vh;
+    /* Ajusta a altura conforme necessário */
 }
 
-#fundo{
+#fundo {
     background-color: #FFF1E3;
     border: 1px solid #F67700;
     border-radius: 20px;
     width: 80%;
     height: 100%;
-    scale: 0.9;
+    scale: 0.95;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
-#conteudo1, #conteudo2, #conteudo3 {
+#conteudo1,
+#conteudo2,
+#conteudo3 {
     background-color: rgb(255, 255, 255);
-    margin: 7px;
+    margin: 20px;
     border-radius: 20px;
     border: 1px solid #F67700;
     position: relative;
     overflow: hidden;
     align-self: flex-end;
-    scale: 0.9;
+    scale: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
 }
 
-#conteudo1{
+#conteudo1 {
     height: 420px;
     width: 260px;
-    
 }
 
-#conteudo2{
+#conteudo2 {
     height: 480px;
     width: 270px;
 }
 
-#conteudo3{
+#conteudo3 {
     height: 540px;
     width: 290px;
 }
 
-#triangulo {
+.triangulo {
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background: linear-gradient(253.09deg, rgba(255, 255, 255, 0.5) 4.67%, rgba(255, 207, 161, 0.5) 99.54%);
-    clip-path: polygon(100% 0, 0 100%, 100% 100%); /* Atualizado para espelhar horizontalmente */
+    clip-path: polygon(100% 0, 0 100%, 100% 100%);
 }
 
+.conteudo {
+    color: #ffffff;
+    /* Cor do texto */
+    background-color: rgba(0, 0, 0, 0.8);
+    /* Adiciona um fundo branco semi-transparente ao conteúdo */
+    padding: 10px;
+    /* Adiciona espaçamento interno ao conteúdo */
+    text-align: center;
+    /* Centraliza o texto */
+    z-index: 1;
+    /* Garante que o conteúdo esteja acima do triângulo */
+}
 
+#conteudo {
+    color: #ffa20c;
+    /* Cor do texto */
+    padding: 10px;
+    /* Adiciona espaçamento interno ao conteúdo */
+    text-align: center;
+    /* Centraliza o texto */
+    z-index: 1;
+    /* Garante que o conteúdo esteja acima do triângulo */
+}
 
+#tituloplano {
+    margin-bottom: 20px;
+}
+
+#opcaoplano {
+    background-color: #FFEFE0;
+    border-radius: 5px;
+    height: 50px;
+    border: 1px solid #F67700;
+    margin-bottom: 10px;
+
+}
+
+#curto{
+    font-size: 14px;
+}
+
+#longo{
+    font-size: 12px;
+}
