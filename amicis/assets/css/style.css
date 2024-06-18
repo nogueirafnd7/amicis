@@ -1,4 +1,4 @@
-*{
+/* *{
     outline: 1px dotted rgb(246, 0, 0);  
 }
 
@@ -6,7 +6,7 @@ body {
     background: repeating-linear-gradient(to right,
             #DDDDDD, #DDDDDD calc(100% / 12),
             #BBBBBB calc(100% / 12), #BBBBBB calc(100% / 6));
-}
+} */
 
 
  #cabecalho {
@@ -197,7 +197,19 @@ body {
     color: #f27338;
 }
 
+.tituloel3 {
+    font-size: 40px;
+    padding: 1.2%;
+    color: #FC7D42;
 
+}
+
+#paragrafoel3 {
+    display: inline-flex;
+    font-size: 18px;
+    line-height: 1.3;
+    color: #FC7D42;
+}
 
 
 #elemento3 {
