@@ -1,30 +1,30 @@
-*{
-    outline: 1px dotted rgb(246, 0, 0);  
+/* * {
+    outline: 1px dotted rgb(246, 0, 0);
 }
 
 body {
     background: repeating-linear-gradient(to right,
             #DDDDDD, #DDDDDD calc(100% / 12),
             #BBBBBB calc(100% / 12), #BBBBBB calc(100% / 6));
-}
+} */
 
 
- #cabecalho {
+#cabecalho {
     background-color: #FC7D42;
     height: 80px;
     align-items: center;
 }
 
- #icone_menu {
+#icone_menu {
     text-align: end;
     color: aliceblue;
     scale: 1.3;
 }
 
-#logo{
- width: 70px;
- height: 70px;
- border-radius: 100%;
+#logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
 }
 
 
@@ -33,7 +33,7 @@ body {
     margin-left: -25px;
     color: aliceblue;
     scale: 1.3;
-} 
+}
 
 #navegar {
     background-color: #FF9B6C;
@@ -239,6 +239,43 @@ body {
     border-radius: 5%;
 }
 
+.tituloel4 {
+    font-size: 40px;
+    padding: 1.2%;
+    color: #FC7D42;
+
+}
+
+#colunael4 {
+    display: grid;
+    margin: 10px;
+}
+
+#botoes, #botoes2 {
+    margin: 10px;
+    border-radius: 15px;
+    height: 80%;
+    width: 100%;
+}
+
+#botoes{
+    background-color: #E59850;  
+}
+
+#botoes2{
+    background-color: #E5A56A; 
+}
+
+
+#elemento4 {
+    background-color: #F5EEEA;
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.131);
+    border-radius: 40px;
+    margin-top: 3%;
+    height: auto;
+}
+
+
 
 #gifel4 {
     background-image: url("../img/catdog.gif");
@@ -249,10 +286,8 @@ body {
     /* Centraliza o GIF dentro do elemento */
     background-repeat: no-repeat;
     /* Evita a repetição do GIF */
-    height: 200px;
-    width: 27%;
+    height: 450px;
+    width: 45%;
     background-color: #FC7D42;
-    border-radius: 40px;
-    margin: 20px;
-
+    border-radius: 40px 0px 0px 40px;
 }
