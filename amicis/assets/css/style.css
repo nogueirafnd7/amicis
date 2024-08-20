@@ -205,9 +205,9 @@ body {
 }
 
 #paragrafoel3 {
-    display: inline-flex;
-    font-size: 18px;
-    line-height: 1.3;
+    padding: 15px;
+    font-size: 20px;
+    line-height: 1.4;
     color: #FC7D42;
 }
 
@@ -231,10 +231,28 @@ body {
     /* Centraliza o GIF dentro do elemento */
     background-repeat: no-repeat;
     /* Evita a repetição do GIF */
-    width: 175px;
+    width: 90%;
     /* Certifique-se de que a largura seja 100% */
-    height: 175px;
+    height: 400px;
     /* Defina uma altura específica para o elemento */
     margin: 10px;
-    border-radius: 20%;
+    border-radius: 5%;
+}
+
+
+#gifel4 {
+    background-image: url("../img/catdog.gif");
+    /* Caminho para o seu GIF */
+    background-size: cover;
+    /* Ajusta o tamanho do GIF para cobrir toda a área do elemento */
+    background-position: center;
+    /* Centraliza o GIF dentro do elemento */
+    background-repeat: no-repeat;
+    /* Evita a repetição do GIF */
+    height: 200px;
+    width: 27%;
+    background-color: #FC7D42;
+    border-radius: 40px;
+    margin: 20px;
+
 }
