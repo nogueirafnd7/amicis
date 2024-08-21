@@ -31,7 +31,7 @@ body {
 #conteudo2,
 #conteudo3 {
     background-color: rgb(255, 255, 255);
-     /* t r b l */
+     /* T R o u B L e */
     margin: 100px 20px 20px 20px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.056);
     border-radius: 20px;
@@ -85,10 +85,10 @@ body {
     /* Garante que o conteúdo esteja acima do triângulo */
 }
 
-#conteudo {
+#conteudo, #conteudobotao {
     color: #ffa20c;
     /* Cor do texto */
-    padding: 10px;
+    padding: 20px 5px 10px 5px;
     /* Adiciona espaçamento interno ao conteúdo */
     text-align: center;
     /* Centraliza o texto */
@@ -96,8 +96,15 @@ body {
     /* Garante que o conteúdo esteja acima do triângulo */
 }
 
+#conteudobotao{
+    background-color: #ffdeb858;
+    border-radius: 15px;
+    padding-bottom: 20px;
+    
+}
+
 #tituloplano {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 #opcaoplano {
@@ -108,10 +115,20 @@ body {
 
 }
 
-#curto {
-    font-size: 14px;
+#topic {
+    font-size: 16px;
 }
 
-#longo {
-    font-size: 14px;
+#opbut{
+    font-size: 18px;
+    color: #FFF1E3;
+    font-weight: 500;
+    --bs-btn-bg: #ff8f27;
+    --bs-btn-hover-bg: #f6a457;
+    --bs-btn-active-bg: #f1a660;
+    --bs-btn-color: #f1a660;
+    --bs-btn-hover-color: #f1a660;
+    --bs-btn-active-color: #f1a660;
 }
+
+
